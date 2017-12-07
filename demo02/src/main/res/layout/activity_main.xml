@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.demo02.MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"></android.support.v4.view.ViewPager>
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <RadioButton
+            android:id="@+id/btn1"
+            android:layout_width="0dp"
+            android:button="@null"
+            android:gravity="center"
+            android:drawableTop="@drawable/draw01"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="微信"/>
+        <RadioButton
+            android:id="@+id/btn2"
+            android:layout_width="0dp"
+            android:button="@null"
+            android:gravity="center"
+            android:drawableTop="@drawable/draw02"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="通讯录"/>
+        <RadioButton
+            android:id="@+id/btn3"
+            android:layout_width="0dp"
+            android:button="@null"
+            android:gravity="center"
+            android:drawableTop="@drawable/draw03"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="发现"/>
+        <RadioButton
+            android:id="@+id/btn4"
+            android:layout_width="0dp"
+            android:button="@null"
+            android:gravity="center"
+            android:drawableTop="@drawable/draw04"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="我"/>
+    </RadioGroup>
+</LinearLayout>

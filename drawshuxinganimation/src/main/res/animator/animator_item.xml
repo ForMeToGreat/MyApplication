@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:ordering="sequentially">
+    <objectAnimator
+        android:duration="2000"
+        android:propertyName="translationX"
+        android:valueFrom="-500"
+        android:valueTo="0"
+        android:valueType="floatType" >
+    </objectAnimator>
+    //ordering:顺序
+    //sequentially:依次的,顺序的
+    //togeter:一起的
+    <set android:ordering="together" >
+        <objectAnimator
+            android:duration="3000"
+            android:propertyName="rotation"
+            android:valueFrom="0"
+            android:valueTo="360"
+            android:valueType="floatType" >
+        </objectAnimator>
+
+        <set android:ordering="sequentially" >
+            <objectAnimator
+                android:duration="1500"
+                android:propertyName="alpha"
+                android:valueFrom="1"
+                android:valueTo="0"
+                android:valueType="floatType" >
+            </objectAnimator>
+            <objectAnimator
+                android:duration="1500"
+                android:propertyName="alpha"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType" >
+            </objectAnimator>
+        </set>
+        <set android:ordering="sequentially">
+            <objectAnimator
+                android:duration="3000"
+                android:propertyName="scaleX"
+                android:valueFrom="1"
+                android:valueTo="2"
+                android:valueType="floatType">
+            </objectAnimator>
+            <objectAnimator
+                android:duration="3000"
+                android:propertyName="scaleX"
+                android:valueFrom="2"
+                android:valueTo="1"
+                android:valueType="floatType">
+            </objectAnimator>
+        </set>
+    </set>
+</set>

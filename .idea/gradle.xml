@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/DrawBuJian" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/day1122" />
+            <option value="$PROJECT_DIR$/demo01" />
+            <option value="$PROJECT_DIR$/demo02" />
+            <option value="$PROJECT_DIR$/drawableanimation" />
+            <option value="$PROJECT_DIR$/drawshuxinganimation" />
+            <option value="$PROJECT_DIR$/ds_store" />
+            <option value="$PROJECT_DIR$/ds_store2" />
+            <option value="$PROJECT_DIR$/flowlayout" />
+            <option value="$PROJECT_DIR$/flowlayout01" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/myview" />
+            <option value="$PROJECT_DIR$/myview01" />
+            <option value="$PROJECT_DIR$/myview02" />
+            <option value="$PROJECT_DIR$/myview03" />
+            <option value="$PROJECT_DIR$/myview04" />
+            <option value="$PROJECT_DIR$/myview05" />
+            <option value="$PROJECT_DIR$/myview06" />
+            <option value="$PROJECT_DIR$/sqlite01" />
+            <option value="$PROJECT_DIR$/sqlite02" />
+            <option value="$PROJECT_DIR$/sqlite03" />
+            <option value="$PROJECT_DIR$/sqlite04" />
+            <option value="$PROJECT_DIR$/sqlite05" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DrawBuJian/DrawBuJian.iml" filepath="$PROJECT_DIR$/DrawBuJian/DrawBuJian.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day1122/day1122.iml" filepath="$PROJECT_DIR$/day1122/day1122.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo01/demo01.iml" filepath="$PROJECT_DIR$/demo01/demo01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo02/demo02.iml" filepath="$PROJECT_DIR$/demo02/demo02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drawableanimation/drawableanimation.iml" filepath="$PROJECT_DIR$/drawableanimation/drawableanimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drawshuxinganimation/drawshuxinganimation.iml" filepath="$PROJECT_DIR$/drawshuxinganimation/drawshuxinganimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ds_store/ds_store.iml" filepath="$PROJECT_DIR$/ds_store/ds_store.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ds_store2/ds_store2.iml" filepath="$PROJECT_DIR$/ds_store2/ds_store2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flowlayout/flowlayout.iml" filepath="$PROJECT_DIR$/flowlayout/flowlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flowlayout01/flowlayout01.iml" filepath="$PROJECT_DIR$/flowlayout01/flowlayout01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myview/myview.iml" filepath="$PROJECT_DIR$/myview/myview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myview01/myview01.iml" filepath="$PROJECT_DIR$/myview01/myview01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myview02/myview02.iml" filepath="$PROJECT_DIR$/myview02/myview02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myview03/myview03.iml" filepath="$PROJECT_DIR$/myview03/myview03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myview04/myview04.iml" filepath="$PROJECT_DIR$/myview04/myview04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myview05/myview05.iml" filepath="$PROJECT_DIR$/myview05/myview05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myview06/myview06.iml" filepath="$PROJECT_DIR$/myview06/myview06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqlite01/sqlite01.iml" filepath="$PROJECT_DIR$/sqlite01/sqlite01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqlite02/sqlite02.iml" filepath="$PROJECT_DIR$/sqlite02/sqlite02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqlite03/sqlite03.iml" filepath="$PROJECT_DIR$/sqlite03/sqlite03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqlite04/sqlite04.iml" filepath="$PROJECT_DIR$/sqlite04/sqlite04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqlite05/sqlite05.iml" filepath="$PROJECT_DIR$/sqlite05/sqlite05.iml" />
+    </modules>
+  </component>
+</project>

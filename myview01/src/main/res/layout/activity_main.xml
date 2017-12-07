@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.myview01.MainActivity">
+    <!--
+    下面这句话用来引入我们定义的一些属性
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    下面这句话是用来引入android已经定义好的一些属性
+    xmlns:android="http://schemas.android.com/apk/res/android"
+-->
+
+    <!--<Views.MyView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>-->
+    <!--<Views.MyButton
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/color"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="改变颜色"
+            android:onClick="cilck"/>
+        <Button
+            android:id="@+id/size"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="改变字体大小"
+            android:onClick="cilck"/>
+        <Button
+            android:id="@+id/text2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="改变文字"
+            android:onClick="cilck"/>
+    </LinearLayout>
+    <Views.MyTextView
+        android:id="@+id/mytext"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        app:text="你好"
+        app:size="20"
+        app:color="#90f0f0f0"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"/>
+</LinearLayout>

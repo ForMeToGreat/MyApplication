@@ -1,0 +1,105 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:background="#e95464"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="22sp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:text="发布商品"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <EditText
+        android:id="@+id/two_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left"
+        android:hint="宝贝标题 填写更多更容易被卖家搜到哦"/>
+
+    <EditText
+        android:id="@+id/two_description"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="left"
+        android:hint="宝贝描述:  描述一下宝贝的购买渠道,新旧程度,型号/尺码等,可以让宝贝更快卖出..."/>
+
+    <GridView
+        android:id="@+id/two_grid"
+        android:numColumns="3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"></GridView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:text="价格"/>
+        <EditText
+            android:id="@+id/two_price"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:hint="请输入价格"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:text="联系方式"/>
+        <EditText
+            android:id="@+id/two_phone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:hint="请输入手机号"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:text="Q Q"/>
+        <EditText
+            android:id="@+id/two_qq"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:hint="请输入您的Q Q"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/two_fabu"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#e95464"
+        android:text="确认发布"
+        android:textColor="#fff"
+        android:textSize="20sp"/>
+</LinearLayout>

@@ -1,0 +1,2 @@
+include ':app', ':sqlite01', ':sqlite02', ':demo01', ':demo02', ':sqlite03', ':sqlite04', ':sqlite05', ':myview', ':myview01', ':myview02', ':myview03', ':myview04', ':myview05', ':flowlayout', ':flowlayout01', ':myview06', ':drawableanimation', ':DrawBuJian', ':drawshuxinganimation', ':ds_store', ':day1122', ':ds_store2'
+include ':library'
