@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ds_store2.ShowActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+    </android.support.v4.view.ViewPager>
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <RadioButton
+            android:id="@+id/btn01"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:paddingTop="7dp"
+            android:gravity="center_horizontal"
+            android:drawableTop="@drawable/draw_01"
+            android:text="首页"/>
+
+        <RadioButton
+            android:id="@+id/btn02"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:paddingTop="7dp"
+            android:drawableTop="@drawable/draw_02"
+            android:gravity="center_horizontal"
+            android:text="我的课"/>
+
+        <RadioButton
+            android:id="@+id/btn03"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:paddingTop="7dp"
+            android:drawableTop="@drawable/draw_03"
+            android:gravity="center_horizontal"
+            android:text="个人中心"/>
+    </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,132 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragment.OneFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager01"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"></android.support.v4.view.ViewPager>
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#a99e93"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="双线课"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#a99e93"
+            android:layout_marginTop="5dp"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager02"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"></android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="名师中心"/>
+
+            <TextView
+                android:id="@+id/more"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                android:paddingRight="10dp"
+                android:text="更多"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#a99e93"/>
+
+        <GridView
+            android:layout_marginTop="5dp"
+            android:id="@+id/mingshi"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:numColumns="4"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="#a99e93"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="好评课程"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#a99e93"/>
+
+        <GridView
+            android:id="@+id/kecheng"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:numColumns="2"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#a99e93"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#eaf4fc"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dingzhi"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="去定制更多内容"
+                android:gravity="center"
+                android:background="@drawable/dingzhi_draw"
+                android:textColor="#ffff"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
